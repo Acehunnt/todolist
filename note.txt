@@ -1,0 +1,49 @@
+
+
+fun name- var name /> follow camelcase -> isValidFirstName
+is_valid- snake case
+
+-ids ,fun name.,errors, var name- should follw - naming conventions
+
+task-
+
+Todo list
+-task add
+-del
+-update
+add button
+-type- text only
+optimized code
+-naming convention should follow
+
+
+task-2
+read  about git 
+send form data to backend database 
+read  about mysql
+
+test-on 21 - js topics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Document</title>
+    <script src="validation.js" ></script>
+
+   
+</head>
+<body>
+    <div id="mydiv" style="border: 2px solid black; text-align: center;  
+    
+    ">
+        <h2> Registration Form</h2>   
+    <form action="profile.html"  method="get" >
+     
+      <!-- <div>
+        <label> First Name: </label> onblur="checkname()" onblur="checkphone()"
+        <div id="ris"><input type="text" name="fn" id="fn"> </div>
+      </div> -->
+      <label> First Name: </label>         
+<input type="text" name="firstname" id="fn" onblur="isvalidname()"  required> <span id="err1" style="color:red;"><b></b></span> 
+        
+<br> <br>  
+<label> Last Name: </label>         
+<input type="text" name="lastname" id="ln"  required> <br> <br>  
+  
+<label>   
+Gender :  
+</label>
+
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br>
+<br>
+
+ 
+Email:  
+<input type="email" id="email" name="email"  onblur="isvalidmail()"  required>  <span id="err2" style="color:red;" ><b></b></span> 
+
+<br>
+<br> 
+Mobile No:  
+<input type="number" id="number" name="number" onblur="isvalidphone()"  required>  <span id="err3" style="color:red;"><b></b></span> 
+
+<br>
+<br> 
+ Date of Birth: 
+<input type="date" id="dob" name="dob"  required>  
+
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass" onblur="isvalidpass()"  required>  <span id="err4" style="color:red;"><b></b></span>  
+<br> <br>  
+Confirm password:  
+<input type="Password" id="repass" name="repass" onblur="issamepass()"  required>  <span id="err5" style="color:red;"><b></b></span> 
+<!-- <input type="button" value="Reset">   -->
+<br>
+<input type="submit" value="Submit" >   
+
+    </form>
+
+</div>
+
+
+</body>
+</html>
