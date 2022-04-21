@@ -21,6 +21,20 @@
         const deletebtn=document.querySelectorAll(".deletebtns");
         var number=1;
 
+
+        btn.onclick=function(){
+    const val=input.value;
+    if(val.length!=0){
+    list.innerHTML+="<li>"+ val + "<button id='deletebtn"+number+"'onclick='addDelete(event)' class='deletebtns'>delete</button>  </li>";
+    number++;
+    }
+   input.value="";
+};
+
+function addDelete(event){
+    console.log("id"+event.target.id);
+    event.target.parentElement.remove();
+}
       
 
     </script>
